@@ -22,7 +22,7 @@ class Libro(Material):
         super(Libro, self).__init__(codigo=codigo, autor=autor, titulo=titulo, anio=anio, editorial=editorial, disponible=disponible, cantidad_disponible=cantidad_disponible)
 
     def __str__(self):
-        return f' Pedido : {self.__dict__.__str__()}'
+        return f' Libro : {self.__dict__.__str__()}'
 
 
     @property
