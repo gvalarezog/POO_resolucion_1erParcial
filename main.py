@@ -3,11 +3,11 @@
 #Alejandra Barrera
 #Jamilet Pillasagua
 
-from docente import Docente
-from estudiante import Estudiante
-from libro import Libro
-from revista import Revista
-from pedido import Pedido
+from dominio.docente import Docente
+from dominio.estudiante import Estudiante
+from dominio.libro import Libro
+from dominio.revista import Revista
+from dominio.pedido import Pedido
 
 
 
